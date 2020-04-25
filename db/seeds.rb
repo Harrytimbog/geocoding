@@ -1,29 +1,10 @@
 Flat.destroy_all
 
-Flat.create!(
-  name: "Harrie's crib",
-  address: 'Olosan - Alakia, Ibadan - NG',
-).update!(
-  latitude: 4.70676,
-  longitude: 4.76581
-)
+#Flat.create(  address: 'Antero de Quental, Rio de Janeiro, Brazil', name: "Wolfbusters Building")
 
-Flat.create!(
-  name: 'Fueling Station',
-  address: '11 Broadway, Financial District, New York, NY 10004, United States',
-).update!(
-  latitude: -22.9204468,
-  longitude: -43.1827152
-)
+Flat.create(address: '16 Villa Gaudelet, Paris', name: 'Le Wagon HQ')
 
-Flat.create!(
-  name: 'Bet9ja Shop',
-  address: 'Centro, Rio de Janeiro - State of Rio de Janeiro',
-).update!(
-  latitude: 36.35229,
-  longitude: -89.98083
-)
-
+#Flat.create(address: 'Centro, Rio de Janeiro - State of Rio de Janeiro', name: 'Sex9ja HQ')
 
 # Booking.create!(
 #   rent_price_cents: '10_000',
